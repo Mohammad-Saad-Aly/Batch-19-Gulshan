@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'saad';
+    src: url("./Playwrite_HU/PlaywriteHU-VariableFont_wght.ttf");
+}
+
+#heading {
+
+    /* font-family: 'saad'; */
+    text-transform: capitalize;
+    /* text-decoration: underline; */
+    line-height: 2.6em;
+    /* letter-spacing: 20px; */
+    /* word-spacing: 20px; */
+    text-align: justify;
+    text-indent: 100px;
+    text-shadow: 0px 0px 10px red;
+
+    /* font-family: monospace; */
+    /* font-size: 10em; */
+    /* color: hsla(297, 74%, 50%, 0.2); */
+    /* color: #9dacbf;
+    opacity: 0.2;
+    background-color: black; */
+}
+
+
+#heading::first-letter{
+    color: yellow;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+
+#heading::first-line{
+    color: yellow;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+
+a:link{
+    color: greenyellow;
+}
+
+a:visited{
+    color: black;
+}
+
+
+#inp:hover{
+    background-color: yellow;
+    border-radius: 20px;
+}
+
+#inp:active{
+    background-color: blue;
+}
+
+#inp:focus{
+    background-color: red;
+}
+
+h1:hover {
+ font-size: 100px;
+}
+
+
+
+
+
+button:hover{
+    background-color: grey;
+    width: 100px;
+    border-radius: 30px;
+    display: none;
+}
+
+
+/* .momo-signature-regular {
+    font-family: "Momo Signature", cursive;
+    font-weight: 10;
+    font-style: normal;
+  }
+   */
