@@ -1,0 +1,25 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+ul {
+    background-color: black;
+    padding: 10px;
+    font-size: xx-large;
+    text-align: center;
+}
+
+ul>li {
+    color: white;
+    display: inline-block;
+    width: 170px;
+    text-align: center;
+    margin-left: 150px;
+}
+
+
+li > img {
+    width: 100px;
+    padding-top: 10px;
+}
