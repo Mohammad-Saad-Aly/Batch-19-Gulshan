@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+table {
+    /* border-collapse: collapse; */
+    border-spacing: 20px;
+    background-color: black;
+    color: white;
+    font-size: larger;
+    border: 10px groove red;
+    margin: auto;
+    margin-top: 100px;
+    width: 70%;
+    text-align: center;
+    height: 300px;
+    padding: 10px;
+}
+
+td, th {
+    border-radius: 10px;
+    border: 3px solid yellow;
+    height: 50px;
+}
+
+td:hover, th:hover {
+    background-color: white;
+    color: black;
+    transform: scale(1.5);
+    transition: 1s;
+}
