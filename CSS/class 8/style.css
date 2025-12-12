@@ -1,0 +1,52 @@
+/* #para1, #para2 {
+    width: 30%;
+}
+
+#para1 {
+    float: left;
+}
+
+#para2 {
+    float: right;
+}
+
+h1 {
+    clear: both;
+} */
+
+/* * {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('https://wallpapers.com/images/hd/netflix-background-6eijmcazwfrb9u6w.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    font-size: xx-large;
+}
+
+
+.abc{
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 100vh;
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: xx-large;
+    color: chartreuse;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    background-image: url('https://images.unsplash.com/photo-1699891730676-037bed3c1bed?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d2Vic2l0ZSUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+
+
