@@ -1,0 +1,19 @@
+
+
+.navbar-nav {
+    margin: auto;
+    justify-content: space-around;
+    width: 80%;
+}
+
+.col img {
+    height: 500px;
+    object-fit: cover;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
