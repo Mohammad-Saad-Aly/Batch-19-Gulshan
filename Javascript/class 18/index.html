@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .main {
+            border-radius: 20px;
+            padding: 20px;
+            border: 3px solid black;
+            background-color: gray;
+            width: 40%;
+            text-align: center;
+            margin: auto;
+            margin-top: 100px;
+        }
+
+        h1 {
+            box-shadow: 10px 10px 10px black;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        .btn button {
+            width: 100px;
+        }
+
+        button {
+            font-family: Calibri;
+            font-size: large;
+            border-radius: 10px;
+            padding: 5px;
+            box-shadow: 10px 10px 10px black;
+        }
+
+        div button {
+            width: 30px;
+            margin: 5px;
+        }
+
+        input {
+            box-shadow: 10px 10px 10px black;
+            border-radius: 20px;
+            padding: 5px;
+            width: 70%;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- <input type="text" name="" id="inp">
+    <button onclick="readField()">Read</button> -->
+
+    <!-- <input type="text" name="" id="inp">
+    <button onclick="setValue()">Set value</button> -->
+
+
+    <div class="main">
+        <div>
+            <h1>Calculator</h1>
+        </div>
+        <hr>
+        <br>
+        <div>
+            <input readonly type="text" name="" id="inp">
+        </div>
+
+        <div class="btn">
+            <button onclick="clr()">Clear</button>
+            <button onclick="clrall()">Clear all</button>
+        </div>
+
+        <div>
+            <button onclick="btnClick(9)">9</button>
+            <button onclick="btnClick(8)">8</button>
+            <button onclick="btnClick(7)">7</button>
+            <button onclick="btnClick('+')">+</button>
+        </div>
+
+        <div>
+            <button onclick="btnClick(6)">6</button>
+            <button onclick="btnClick(5)">5</button>
+            <button onclick="btnClick(4)">4</button>
+            <button onclick="btnClick('-')">-</button>
+        </div>
+        <div>
+            <button onclick="btnClick(3)">3</button>
+            <button onclick="btnClick(2)">2</button>
+            <button onclick="btnClick(1)">1</button>
+            <button onclick="btnClick('*')">x</button>
+        </div>
+
+        <div>
+            <button onclick="btnClick(0)">0</button>
+            <button onclick="btnClick('.')">.</button>
+            <button onclick="btnClick('/')">/</button>
+            <button onclick="equalValues()">=</button>
+        </div>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
